@@ -142,7 +142,7 @@ public class ParticipantManagementSystem {
                 case 3:
                     System.out.print("Enter Name: ");
                     String searchName = scanner.nextLine();
-                    System.out.print("Enter Role (1: Consultant, 2: Outsource, 3: Guest, 4: Internal): ");
+                    System.out.print("Enter Role (1: Consultant, 2: Outsource, 3: Guest, 4: Staff): ");
                     int searchRole = scanner.nextInt();
                     scanner.nextLine();
                     List<Participant> foundParticipants = manager.findParticipantsByNameAndRole(searchName, searchRole);
